@@ -5,6 +5,7 @@ body {
     background-color: #495A79;
     margin: 0px;
     padding: 0px;
+    font-family: 'Inter', sans-serif;
 }
 /* ------- HEADER STYLE -------- */
 .courses-library {
@@ -15,7 +16,7 @@ body {
     height: 150px;
     background-color: #D9D9D9;
 }
-/* ------- COURSE BLOCK STYLES-------- */
+/* ------- COURSE BLOCK STYLES MAIN-------- */
 .all-courses {
     display: flex;
     flex-wrap: wrap;
@@ -29,7 +30,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 350px;
-    height: 300px; 
+    height: 280px; 
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
     margin: 20px;
@@ -37,16 +38,41 @@ body {
    
 }
 .course-inner {
-   margin-left: 60px;
+     margin-left: 60px;
 
 } 
-
 .course-center {
-     padding-left: 20px;
+    padding-left: 20px;
     height: 160px;
     width: 320px;
-  
     border-radius: 15px;
     background-color: blue;
+
+}
+.course-center h1 {
+    margin: 0px;
+    padding-top: 50px;
+
 }
 
+/* ------- COURSE CLASSES STYLES-------- */
+.course-info {
+    color: #8B9ADE;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 10px;;
+}
+.course-teacher {
+    color: #6078E8;
+}
+
+
+.course-level {
+    color: #8F8F8F;
+    font-size: 12px;
+    font-weight: 700;
+}
+.course-name {
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
